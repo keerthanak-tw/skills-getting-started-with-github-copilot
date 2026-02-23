@@ -142,3 +142,30 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* Participants list styles */
+.participants-container {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.participants-list {
+  font-size: 0.95em;
+  color: #444;
+  margin-top: 8px;
+  padding-left: 18px;
+  max-height: 6em;
+  overflow-y: auto;
+}
+
+.participants-list li {
+  margin-bottom: 6px;
+  list-style: disc;
+}
+
+.participants-empty {
+  color: #888;
+  font-style: italic;
+  margin-top: 8px;
+}
